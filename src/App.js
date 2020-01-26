@@ -1,11 +1,16 @@
 import React from 'react';
 import './App.css';
+import Header from './components/Header';
+import AddForm from './components/AddForm';
+import List from './components/List';
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <>
+      <Header/>
+      <AddForm/>
+      <List/>
+    </>
   );
 }
 
